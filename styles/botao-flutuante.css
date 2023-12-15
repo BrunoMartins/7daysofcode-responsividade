@@ -1,0 +1,27 @@
+.botao__flutuante-cadastro {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-image: url(../images/maisicone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.botao__flutuante-local{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-image: url(../images/Camerafab.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.botao__flutuante-remoto{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-image: url(../images/pinfabiconee.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

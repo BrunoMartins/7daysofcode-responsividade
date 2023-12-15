@@ -1,0 +1,113 @@
+.consultas{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.agenda{
+    display: flex;
+    padding: 0 1em;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--cinza-principal);
+}
+
+.consultas__card{
+    margin: 0 1em;
+    border: 1px solid #ECECEC;
+    width: 20.5em;
+    
+}
+
+
+.consultas__paciente{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    
+    
+}
+
+.consultas__foto{
+    margin-right: 1em;
+}
+
+.consultas__titulo{
+    font-size: 0.87em;
+    font-weight: 700;
+    color: var(--cinza-principal);
+    line-height: 1.25em;
+    margin-right: 8.2em;
+}
+
+.consultas__texto{
+    color: var(--cinza-secundario);
+    font-size: .75em;
+    font-weight: 400;
+    margin-right: 5.6em;
+}
+
+
+.consultas__remoto{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+
+.consultas__informacoes{
+    padding: .5em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.consultas__informacoes-texto{
+    font-size: .75em;
+    color: var(--cinza-principal);
+    font-weight: 500;
+}
+
+.consulta__ligacoes{
+    display: flex;
+    gap: 1.125em;
+}
+
+.botao__video{
+    padding: 1em;
+    background-color: var(--laranja-botao);
+    color: var(--branco-botao);
+    font-size: .87em;
+    font-weight: 500;
+    border-radius: .5em;
+    border: none;
+    align-items: center;
+    font-family: var(--fonte-principal);
+}
+
+.botao__audio{
+    padding: 1em;
+    color: var(--cinza-principal);
+    font-weight: 500;
+    font-size: .87em;
+    border-radius: .5em;
+    border: none;
+    font-family: var(--fonte-principal);
+    border: 1px solid #ECECEC;
+    align-items: center;
+    
+}
+
+.botao__local{
+    background-color: var(--azul-botao);
+    padding: 1em 0;
+    color: var(--branco-botao);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: .87em;
+    border-radius: .5em;
+    border: none;
+    width: 100%;
+    align-items: center;
+}

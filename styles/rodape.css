@@ -1,0 +1,9 @@
+
+.icones{
+    padding: .5em 1.75em .5em .87em;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+
