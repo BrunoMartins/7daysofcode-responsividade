@@ -5,6 +5,13 @@
     background-image: url(../images/maisicone.svg);
     background-repeat: no-repeat;
     background-position: center;
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    z-index: 1;
+    
+    
 }
 
 .botao__flutuante-local{
@@ -14,6 +21,7 @@
     background-image: url(../images/Camerafab.svg);
     background-repeat: no-repeat;
     background-position: center;
+    filter: drop-shadow(0 3px 6px #4894FF90);
 }
 
 .botao__flutuante-remoto{
@@ -23,5 +31,35 @@
     background-image: url(../images/pinfabiconee.svg);
     background-repeat: no-repeat;
     background-position: center;
+    filter: drop-shadow(0 3px 6px #4894FF90);
 }
 
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at bottom right, black, 20%, transparent);
+
+    
+}
+
+.overlay-button {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: .5em;
+  }
+
+  .botao__flutuante-opcoes{
+    position: absolute;
+    right: 2.5rem;
+    bottom: 6.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }

@@ -4,10 +4,16 @@
     align-items: center;
 }
 
+.cabecalho__imagem{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
 
 .cabecalho__perfil{
     display: flex;
-    padding: 2em 7.5em 1.37em 1em;
+    padding: 2em 7.5em 2em 1em;
     align-items: center;
     gap: 1em;
 }

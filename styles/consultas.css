@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 1em;
     align-items: center;
+    position: relative;
 }
 
 .agenda{
@@ -16,8 +17,7 @@
 .consultas__card{
     margin: 0 1em;
     border: 1px solid #ECECEC;
-    width: 20.5em;
-    
+    width: 90%; 
 }
 
 
@@ -25,12 +25,22 @@
     display: flex;
     padding: 1em;
     align-items: center;
+    justify-content: space-between;
     
     
 }
 
+.consultas__layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .consultas__foto{
     margin-right: 1em;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
 }
 
 .consultas__titulo{
@@ -84,6 +94,7 @@
     border: none;
     align-items: center;
     font-family: var(--fonte-principal);
+    width: 50%;
 }
 
 .botao__audio{
@@ -96,6 +107,7 @@
     font-family: var(--fonte-principal);
     border: 1px solid #ECECEC;
     align-items: center;
+    width: 50%;
     
 }
 
@@ -110,4 +122,18 @@
     border: none;
     width: 100%;
     align-items: center;
+}
+
+.consulta__chat{
+    position: relative;
+    right: 0px;
+}
+
+@media screen and (min-width: 800px){
+    .consultas__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+
 }
