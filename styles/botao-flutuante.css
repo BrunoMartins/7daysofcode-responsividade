@@ -7,7 +7,7 @@
     background-position: center;
     position: fixed;
     right: 2.5rem;
-    bottom: 2.5rem;
+    bottom: 3.5rem;
     filter: drop-shadow(0 3px 6px #4894FF90);
     z-index: 1;
     
@@ -58,7 +58,7 @@
   .botao__flutuante-opcoes{
     position: absolute;
     right: 2.5rem;
-    bottom: 6.8rem;
+    bottom: 7.8rem;
     display: flex;
     flex-direction: column;
     gap: 1em;

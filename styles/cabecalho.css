@@ -13,8 +13,9 @@
 
 .cabecalho__perfil{
     display: flex;
-    padding: 2em 7.5em 2em 1em;
+    margin: 2em 0;
     align-items: center;
+    justify-content: center;
     gap: 1em;
 }
 

@@ -1,12 +1,33 @@
-
 .icones{
-    padding: .5em 1.75em .5em .87em;
     display: flex;
-    gap: 2em;
     justify-content: center;
-    width: 90%;
+    background-color: var(--branco-botao);
+    border-radius: 1em;
+    border: 1px solid #ECECEC; 
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.06);
+    
 }
 
+.icones__lista{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
 
+.icones__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
 
+.icones__texto{
+    color:var(--cinza-secundario);
+    font-size: .75em;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
 
