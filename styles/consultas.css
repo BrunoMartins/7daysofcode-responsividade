@@ -145,4 +145,16 @@
         gap: 2em;
     }
 
+    .agenda{
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .consultas__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+    }
+    
 }

@@ -20,6 +20,7 @@
                     <p class="cabecalho__texto">Mais 4 consultas hoje</p>
                 </div>
             </div>
+                <a href="#" class="cabecalho__botao">Nova consulta</a>
         </header>
         <section class="consultas">
             <div class="agenda">
@@ -277,66 +278,66 @@
                 </div>
             </div>
         </section>
-            <nav class="icones">
-                <ul class="icones__lista">
-                    <li class="icones__item">
-                        <a href="#"><img src="images/calendar-icon.svg" alt="ícone calendário" class="icones__imagem"></a>
-                        <span class="icones__texto">Agenda</span>
-                    </li>
-                    <li class="icones__item">
-                        <a href="#"><img src="images/clients-icon.svg" alt="ícone clientes" class="icones__imagem"></a>
-                        <span class="icones__texto">Clientes</span>
-                    </li>
-                    <li class="icones__item">
-                        <a href="#"><img src="images/report-icon.svg" alt="ícone relatório" class="icones__imagem"></a>
-                        <span class="icones__texto">Relatórios</span>
-                    </li>
-                    <li class="icones__item">
-                        <a href="#"><img src="images/menu-icon.svg" alt="ícone menu" class="icones__imagem"></a>
-                        <span class="icones__texto">Menu</span>
-                    </li>
-                </ul>
-        
-        
-            </nav>
-            <section class="botao">
-            <div class="botao__flutuante">
-                <button
-                  class="botao__flutuante-cadastro botao__local "
-                  id="mainButton"
-                ></button>
-                <div class="overlay" id="overlay">
-                  <div class="overlay-buttons">
-                    <ul class="botao__flutuante-opcoes">
-                      <li class="overlay-button">
-                        <span> Nova consulta na casa do cliente </span>
-                        <button class="botao__flutuante-local botao__local"></button>
-                      </li>
-                      <li class="overlay-button">
-                        <span> Nova consulta por vídeo </span>
-                        <button class="botao__flutuante-remoto botao__local"></button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-        
-            <script>
-              document
-                .getElementById("mainButton")
-                .addEventListener("click", function () {
-                  document.getElementById("overlay").style.display = "flex";
-                });
-        
-              document
-                .getElementById("overlay")
-                .addEventListener("click", function (e) {
-                  if (e.target === this) {
-                    this.style.display = "none";
-                  }
-                });
-            </script>
     </main>
+    <nav class="icones">
+        <ul class="icones__lista">
+            <li class="icones__item">
+                <a href="#"><img src="images/calendar-icon.svg" alt="ícone calendário" class="icones__imagem"></a>
+                <span class="icones__texto">Agenda</span>
+            </li>
+            <li class="icones__item">
+                <a href="#"><img src="images/clients-icon.svg" alt="ícone clientes" class="icones__imagem"></a>
+                <span class="icones__texto">Clientes</span>
+            </li>
+            <li class="icones__item">
+                <a href="#"><img src="images/report-icon.svg" alt="ícone relatório" class="icones__imagem"></a>
+                <span class="icones__texto">Relatórios</span>
+            </li>
+            <li class="icones__item">
+                <a href="#"><img src="images/menu-icon.svg" alt="ícone menu" class="icones__imagem"></a>
+                <span class="icones__texto">Menu</span>
+            </li>
+        </ul>
+
+
+    </nav>
+    <section class="botao">
+    <div class="botao__flutuante">
+        <button
+          class="botao__flutuante-cadastro botao__local "
+          id="mainButton"
+        ></button>
+        <div class="overlay" id="overlay">
+          <div class="overlay-buttons">
+            <ul class="botao__flutuante-opcoes">
+              <li class="overlay-button">
+                <span> Nova consulta na casa do cliente </span>
+                <button class="botao__flutuante-local botao__local"></button>
+              </li>
+              <li class="overlay-button">
+                <span> Nova consulta por vídeo </span>
+                <button class="botao__flutuante-remoto botao__local"></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document
+        .getElementById("mainButton")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "flex";
+        });
+
+      document
+        .getElementById("overlay")
+        .addEventListener("click", function (e) {
+          if (e.target === this) {
+            this.style.display = "none";
+          }
+        });
+    </script>
 </body>
 </html>

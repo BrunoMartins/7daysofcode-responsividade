@@ -63,3 +63,9 @@
     flex-direction: column;
     gap: 1em;
   }
+
+  @media screen and (min-width: 800px){
+    .botao__flutuante-cadastro{
+        display: none;
+    }
+  }

@@ -37,3 +37,27 @@
     color: var(--cinza-secundario);
     font-weight: 400;
 }
+
+.cabecalho__botao{
+    display: none;
+}
+
+@media screen and (min-width: 800px){
+    .cabecalho__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__botao{
+        display: block;
+        width: 9rem;
+        background-color: var(--azul-botao);
+        color: var(--branco-botao);
+        text-decoration: none;
+        text-align: center;
+        padding: 1em;
+        border-radius: 1em;
+    }
+}
