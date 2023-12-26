@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="new-appointment">
+        <h1 class="form__title">Cadastro de nova consulta</h1>
+        <form action="index.html" class="form">
+            <label for="pacient-name" class="form__input-label">Nome paciente</label>
+            <input type="text" id="pacient-name" class="form__input" placeholder="Nome paciente">
+            <label class="form__input-label">Tipo de consulta:</label>
+            <div class="form__input-radio">
+                <label for="Consulta remota"><input type="radio" name="appointment-type" id="type-remote" value="Consulta remota" checked required>Consulta remota</label>
+                <label for="Consulta local"><input type="radio" name="appointment-type" id="type-local" value="Consulta local" required>Consulta local</label>
+            </div>
+            <label class="form__input-label" for="appointment-date">Data da consulta:</label>
+            <input class="form__input" type="date" id="appointment-date" name="appointment-date" required/>
+            <label class="form__input-label" for="appointment-time">Hora da consulta:</label>
+            <input class="form__input" type="time" id="appointment-time" name="appointment-time" required/>
+            <label class="form__input-label" for="appointment-observations">Observações:</label>
+              <input class="form__input" placeholder="Observações" type="text" id="appointment-observations" name="appointment-observations"/>
+              <input class="form__button" type="submit" name="new-appointment-submit" value="Cadastrar nova consulta"
+            />  
+        </form>
+    </main>
+    <nav class="icones">
+        <ul class="icones__lista">
+            <li class="icones__item">
+                <a href="index.html"><img src="images/calendar-icon.svg" alt="ícone calendário" class="icones__imagem"></a>
+                <span class="icones__texto">Agenda</span>
+            </li>
+            <li class="icones__item">
+                <a href="#"><img src="images/clients-icon.svg" alt="ícone clientes" class="icones__imagem"></a>
+                <span class="icones__texto">Clientes</span>
+            </li>
+            <li class="icones__item">
+                <a href="#"><img src="images/report-icon.svg" alt="ícone relatório" class="icones__imagem"></a>
+                <span class="icones__texto">Relatórios</span>
+            </li>
+            <li class="icones__item">
+                <a href="#"><img src="images/menu-icon.svg" alt="ícone menu" class="icones__imagem"></a>
+                <span class="icones__texto">Menu</span>
+            </li>
+        </ul>
+
+
+    </nav>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+.new-appointment{
+    margin-top: 3em;
+}
+
+.form__title{
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--cinza-principal);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form__input-label{
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.form__input{
+    padding: 1em;
+    border-radius: .5em;
+    border: 1px solid var(--cinza-borda);
+    outline: none;
+    margin-bottom: 1em;
+    transition: border 0.2s;
+}
+
+.form__input:hover {
+    border: 1px solid var(--cinza-hover);
+  }
+
+  .form__input::placeholder {
+    color: var(--cinza-hover);
+    transition: color 0.2s;
+  }
+
+  .form__input:hover::placeholder {
+    color: var(--cinza-secundario);
+  }
+
+  .form__input-radio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+  .form__button{
+    padding: 1em;
+    border-radius: .5em;
+    background-color: var(--azul-botao);
+    color: var(--branco-botao);
+    outline: none;
+    border-style: none;
+  }

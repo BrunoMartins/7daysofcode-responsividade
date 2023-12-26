@@ -3,6 +3,7 @@
 @import url(styles/rodape.css);
 @import url(styles/botao-flutuante.css);
 @import url(styles/botao-flutuante.css);
+@import url(styles/form.css);
 
 
 
@@ -15,6 +16,8 @@
     --azul-botao:#4894FF;
     --preto-hora: #333333;
     --cinza-fundo:#f6f6f6;
+    --cinza-borda: #ececec;
+    --cinza-hover: #cfcfcf;
 
     --fonte-principal: 'Montserrat', sans-serif;
 
