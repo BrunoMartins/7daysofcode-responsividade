@@ -3,6 +3,8 @@
 <h2>🔖 Sobre</h2>
 <p>Durante o desafio por possível colocar com prática os conceitos de html, css e responsividade que foram trabalhados durante o curso. </p>
 
+[Acessar a página]( https://brunomartins.github.io/7daysofcode-responsividade/)
+
 ## 🚀 Tecnologias
 <div>
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
